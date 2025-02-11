@@ -57,14 +57,14 @@
 
  Number of Receiver depths, Rz =            1
  Receiver depths, Rz (m)
-   300.000    
+   200.000    
 
 
  __________________________________________________________________________
 
  Number of Receiver ranges, Rr =            1
  Receiver ranges, Rr (km)
-   118.637    
+   119.720    
 
 
  Arrivals calculation, ASCII  file output
@@ -151,4 +151,4 @@ Tracing beam     941     70.55
 Tracing beam     961     73.75
 Tracing beam     981     76.96
 
- CPU Time =       0.938E-01s
+ CPU Time =       0.781E-01s

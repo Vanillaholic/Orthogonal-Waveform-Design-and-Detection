@@ -57,7 +57,7 @@
 
  Number of Receiver depths, Rz =            1
  Receiver depths, Rz (m)
-   300.000    
+   200.000    
 
 
  __________________________________________________________________________
@@ -151,4 +151,4 @@ Tracing beam     941     70.55
 Tracing beam     961     73.75
 Tracing beam     981     76.96
 
- CPU Time =       0.781E-01s
+ CPU Time =        0.00    s
