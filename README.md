@@ -6,16 +6,16 @@
 
 ### 仿真的序列如下：
 
-/bullet costas 序列的生成：costas_seq_simulation.mlx
+\bullet costas 序列的生成：costas_seq_simulation.mlx
 
-/bullet m 序列的生成：m_seq_simlation.mlx
+\bullet m 序列的生成：m_seq_simlation.mlx
 
-/bullet gold 序列的生成：gold_seq_simlation.mlx
+\bullet gold 序列的生成：gold_seq_simlation.mlx
 
-/bullet kasami 序列的生成：kasami_seq_simulation.mlx
+\bullet kasami 序列的生成：kasami_seq_simulation.mlx
 
-/bullet LFM 上下变频信号的生成：lfm_simulation.mlx
+\bullet LFM 上下变频信号的生成：lfm_simulation.mlx
 
-#$## 信号处理：
+### 信号处理：
 
-/bullet 利用 Python 中的 librosa 进行信号处理：sig_process.ipynb
+\bullet 利用 Python 中的 librosa 进行信号处理：sig_process.ipynb
