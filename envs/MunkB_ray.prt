@@ -67,10 +67,10 @@
 
  Number of Receiver ranges, Rr =          500
  Receiver ranges, Rr (km)
-   0.00000      0.400802      0.801603       1.20240       1.60321    
-   2.00401       2.40481       2.80561       3.20641       3.60721    
+   0.00000      0.460922      0.921844       1.38277       1.84369    
+   2.30461       2.76553       3.22645       3.68737       4.14830    
           ... 
-   200.000    
+   230.000    
 
 
  Ray trace run
@@ -79,10 +79,10 @@
  Rectilinear receiver grid: Receivers at Rr( : ) x Rz( : )
  __________________________________________________________________________
 
- Number of beams in elevation   =           35
+ Number of beams in elevation   =           70
  Beam take-off angles (degrees)
-  -25.0000      -23.6765      -22.3529      -21.0294      -19.7059    
-  -18.3824      -17.0588      -15.7353      -14.4118      -13.0882    
+  -25.0000      -24.3478      -23.6957      -23.0435      -22.3913    
+  -21.7391      -21.0870      -20.4348      -19.7826      -19.1304    
           ... 
    20.0000    
 
@@ -92,46 +92,81 @@
  Step length,       deltas =   0.000     m
 
  Maximum ray depth, Box%z  =   5500.     m
- Maximum ray range, Box%r  =   200.0    km
+ Maximum ray range, Box%r  =   230.0    km
  No beam shift in effect
 
 
  Step length,       deltas =   500.0     m (automatically selected)
 
 Tracing beam       1    -25.00
-Tracing beam       2    -23.68
-Tracing beam       3    -22.35
-Tracing beam       4    -21.03
-Tracing beam       5    -19.71
-Tracing beam       6    -18.38
-Tracing beam       7    -17.06
-Tracing beam       8    -15.74
-Tracing beam       9    -14.41
-Tracing beam      10    -13.09
-Tracing beam      11    -11.76
-Tracing beam      12    -10.44
-Tracing beam      13     -9.12
-Tracing beam      14     -7.79
-Tracing beam      15     -6.47
-Tracing beam      16     -5.15
-Tracing beam      17     -3.82
-Tracing beam      18     -2.50
-Tracing beam      19     -1.18
-Tracing beam      20      0.15
-Tracing beam      21      1.47
-Tracing beam      22      2.79
-Tracing beam      23      4.12
-Tracing beam      24      5.44
-Tracing beam      25      6.76
-Tracing beam      26      8.09
-Tracing beam      27      9.41
-Tracing beam      28     10.74
-Tracing beam      29     12.06
-Tracing beam      30     13.38
-Tracing beam      31     14.71
-Tracing beam      32     16.03
-Tracing beam      33     17.35
-Tracing beam      34     18.68
-Tracing beam      35     20.00
+Tracing beam       2    -24.35
+Tracing beam       3    -23.70
+Tracing beam       4    -23.04
+Tracing beam       5    -22.39
+Tracing beam       6    -21.74
+Tracing beam       7    -21.09
+Tracing beam       8    -20.43
+Tracing beam       9    -19.78
+Tracing beam      10    -19.13
+Tracing beam      11    -18.48
+Tracing beam      12    -17.83
+Tracing beam      13    -17.17
+Tracing beam      14    -16.52
+Tracing beam      15    -15.87
+Tracing beam      16    -15.22
+Tracing beam      17    -14.57
+Tracing beam      18    -13.91
+Tracing beam      19    -13.26
+Tracing beam      20    -12.61
+Tracing beam      21    -11.96
+Tracing beam      22    -11.30
+Tracing beam      23    -10.65
+Tracing beam      24    -10.00
+Tracing beam      25     -9.35
+Tracing beam      26     -8.70
+Tracing beam      27     -8.04
+Tracing beam      28     -7.39
+Tracing beam      29     -6.74
+Tracing beam      30     -6.09
+Tracing beam      31     -5.43
+Tracing beam      32     -4.78
+Tracing beam      33     -4.13
+Tracing beam      34     -3.48
+Tracing beam      35     -2.83
+Tracing beam      36     -2.17
+Tracing beam      37     -1.52
+Tracing beam      38     -0.87
+Tracing beam      39     -0.22
+Tracing beam      40      0.43
+Tracing beam      41      1.09
+Tracing beam      42      1.74
+Tracing beam      43      2.39
+Tracing beam      44      3.04
+Tracing beam      45      3.70
+Tracing beam      46      4.35
+Tracing beam      47      5.00
+Tracing beam      48      5.65
+Tracing beam      49      6.30
+Tracing beam      50      6.96
+Tracing beam      51      7.61
+Tracing beam      52      8.26
+Tracing beam      53      8.91
+Tracing beam      54      9.57
+Tracing beam      55     10.22
+Tracing beam      56     10.87
+Tracing beam      57     11.52
+Tracing beam      58     12.17
+Tracing beam      59     12.83
+Tracing beam      60     13.48
+Tracing beam      61     14.13
+Tracing beam      62     14.78
+Tracing beam      63     15.43
+Tracing beam      64     16.09
+Tracing beam      65     16.74
+Tracing beam      66     17.39
+Tracing beam      67     18.04
+Tracing beam      68     18.70
+Tracing beam      69     19.35
+Tracing beam      70     20.00
 
- CPU Time =       0.312E-01s
+ CPU Time =       0.109    s

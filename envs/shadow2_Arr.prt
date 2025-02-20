@@ -57,14 +57,14 @@
 
  Number of Receiver depths, Rz =            1
  Receiver depths, Rz (m)
-   200.000    
+   400.000    
 
 
  __________________________________________________________________________
 
  Number of Receiver ranges, Rr =            1
  Receiver ranges, Rr (km)
-   92.9860    
+   84.9480    
 
 
  Arrivals calculation, ASCII  file output
@@ -73,10 +73,10 @@
  Rectilinear receiver grid: Receivers at Rr( : ) x Rz( : )
  __________________________________________________________________________
 
- Number of beams in elevation   =         1000
+ Number of beams in elevation   =         1500
  Beam take-off angles (degrees)
-  -80.0000      -79.8398      -79.6797      -79.5195      -79.3594    
-  -79.1992      -79.0390      -78.8789      -78.7187      -78.5586    
+  -80.0000      -79.8933      -79.7865      -79.6798      -79.5730    
+  -79.4663      -79.3596      -79.2528      -79.1461      -79.0394    
           ... 
    80.0000    
 
@@ -97,58 +97,58 @@
 Tracing beam       1    -80.00
 
  Geometric hat beams                     
- halfwidth  =    116.17180749143726     
- epsilonOpt =  (  0.0000000000000000     ,  63597877.924698472     )
+ halfwidth  =    174.31585528494941     
+ epsilonOpt =  (  0.0000000000000000     ,  143190733.57108399     )
  EpsMult    =    1.0000000000000000     
 
-Tracing beam      21    -76.80
-Tracing beam      41    -73.59
-Tracing beam      61    -70.39
-Tracing beam      81    -67.19
-Tracing beam     101    -63.98
-Tracing beam     121    -60.78
-Tracing beam     141    -57.58
-Tracing beam     161    -54.37
-Tracing beam     181    -51.17
-Tracing beam     201    -47.97
-Tracing beam     221    -44.76
-Tracing beam     241    -41.56
-Tracing beam     261    -38.36
-Tracing beam     281    -35.16
-Tracing beam     301    -31.95
-Tracing beam     321    -28.75
-Tracing beam     341    -25.55
-Tracing beam     361    -22.34
-Tracing beam     381    -19.14
-Tracing beam     401    -15.94
-Tracing beam     421    -12.73
-Tracing beam     441     -9.53
-Tracing beam     461     -6.33
-Tracing beam     481     -3.12
-Tracing beam     501      0.08
-Tracing beam     521      3.28
-Tracing beam     541      6.49
-Tracing beam     561      9.69
-Tracing beam     581     12.89
-Tracing beam     601     16.10
-Tracing beam     621     19.30
-Tracing beam     641     22.50
-Tracing beam     661     25.71
-Tracing beam     681     28.91
-Tracing beam     701     32.11
-Tracing beam     721     35.32
-Tracing beam     741     38.52
-Tracing beam     761     41.72
-Tracing beam     781     44.92
-Tracing beam     801     48.13
-Tracing beam     821     51.33
-Tracing beam     841     54.53
-Tracing beam     861     57.74
-Tracing beam     881     60.94
-Tracing beam     901     64.14
-Tracing beam     921     67.35
-Tracing beam     941     70.55
-Tracing beam     961     73.75
-Tracing beam     981     76.96
+Tracing beam      31    -76.80
+Tracing beam      61    -73.60
+Tracing beam      91    -70.39
+Tracing beam     121    -67.19
+Tracing beam     151    -63.99
+Tracing beam     181    -60.79
+Tracing beam     211    -57.59
+Tracing beam     241    -54.38
+Tracing beam     271    -51.18
+Tracing beam     301    -47.98
+Tracing beam     331    -44.78
+Tracing beam     361    -41.57
+Tracing beam     391    -38.37
+Tracing beam     421    -35.17
+Tracing beam     451    -31.97
+Tracing beam     481    -28.77
+Tracing beam     511    -25.56
+Tracing beam     541    -22.36
+Tracing beam     571    -19.16
+Tracing beam     601    -15.96
+Tracing beam     631    -12.76
+Tracing beam     661     -9.55
+Tracing beam     691     -6.35
+Tracing beam     721     -3.15
+Tracing beam     751      0.05
+Tracing beam     781      3.26
+Tracing beam     811      6.46
+Tracing beam     841      9.66
+Tracing beam     871     12.86
+Tracing beam     901     16.06
+Tracing beam     931     19.27
+Tracing beam     961     22.47
+Tracing beam     991     25.67
+Tracing beam    1021     28.87
+Tracing beam    1051     32.07
+Tracing beam    1081     35.28
+Tracing beam    1111     38.48
+Tracing beam    1141     41.68
+Tracing beam    1171     44.88
+Tracing beam    1201     48.09
+Tracing beam    1231     51.29
+Tracing beam    1261     54.49
+Tracing beam    1291     57.69
+Tracing beam    1321     60.89
+Tracing beam    1351     64.10
+Tracing beam    1381     67.30
+Tracing beam    1411     70.50
+Tracing beam    1441     73.70
+Tracing beam    1471     76.90
 
- CPU Time =       0.625E-01s
+ CPU Time =       0.109    s
