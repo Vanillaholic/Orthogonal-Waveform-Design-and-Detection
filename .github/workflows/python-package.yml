@@ -1,0 +1,58 @@
+name: Python CI/CD
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9"]
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+        
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libsndfile1 ffmpeg
+        
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install \
+          torch==2.7.0.dev20250127+cu118 \
+          torchaudio==2.6.0.dev20250128+cu118 \
+          torchvision==0.22.0.dev20250128+cu118 \
+          --extra-index-url https://download.pytorch.org/whl/cu118
+        
+        pip install \
+          librosa==0.10.2.post1 \
+          numpy==1.26.4 \
+          scipy==1.13.1 \
+          pandas==2.2.3 \
+          tftb==0.2.0 \
+          padasip==1.2.2 \
+          arlpy==1.9.1 \
+          pytest==7.4.0 \
+          flake8==6.1.0
+
+    - name: Verify CUDA availability
+      run: |
+        python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}')"
+        
+    - name: Lint with flake8
+      run: flake8 . --count --max-complexity=10 --max-line-length=127 --statistics
+      
+    - name: Run tests
+      run: pytest -v
