@@ -19,10 +19,9 @@
 *信号处理：*
 
 - 利用 Python 中的 librosa 进行信号处理：sig_process.ipynb
-python=3.9.21                                                                                                       ─╯
-# packages in environment at D:\anaconda3\.conda\envs\sig_processing:
-#
-# Name                    Version                   Build  Channel
+python=3.9.21                                                                                             
+
+** Name                    Version                   Build  Channel **
 
 libtorch                  2.5.1           cpu_mkl_h1aab2ed_102
 
