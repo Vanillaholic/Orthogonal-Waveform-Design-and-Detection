@@ -21,30 +21,18 @@
 - 利用 Python 中的 librosa 进行信号处理：sig_process.ipynb
 python=3.9.21                                                                                             
 
-** Name                    Version                   Build  Channel **
-
-libtorch                  2.5.1           cpu_mkl_h1aab2ed_102
-
-pytorch                   2.5.1           cpu_mkl_py39hc9ee3b7_102 
-
-pytorch-cuda              11.8                 h24eeafa_6    pytorch
-
-pytorch-mutex             1.0                        cuda    pytorch
-
-torchaudio                2.5.1                    pypi_0    pypi
-
-torchvision               0.20.1                   pypi_0    pypi
-
-librosa                   0.10.2.post1       pyhd8ed1ab_1    conda-forge
-                                                                                                    
-numpy                     1.26.4                   pypi_0    pypi
-                                                                                                       
-scipy                     1.13.1           py39h1a10956_0    conda-forge
-
-pandas                    2.2.3                    pypi_0    pypi
-
-tftb                      0.2.0                    pypi_0    pypi
-
-padasip                   1.2.2                    pypi_0    pypi
-
-arlpy                     1.9.1                    pypi_0    pypi
+| Name | Version | Build | Channel |
+| --- | --- | --- | --- |
+| libtorch | 2.5.1 | cpu_mkl_h1aab2ed_102 |  |
+| pytorch | 2.5.1 | cpu_mkl_py39hc9ee3b7_102 |  |
+| pytorch - cuda | 11.8 | h24eeafa_6 | pytorch |
+| pytorch - mutex | 1.0 | cuda | pytorch |
+| torchaudio | 2.5.1 | pypi_0 | pypi |
+| torchvision | 0.20.1 | pypi_0 | pypi |
+| librosa | 0.10.2.post1 | pyhd8ed1ab_1 | conda - forge |
+| numpy | 1.26.4 | pypi_0 | pypi |
+| scipy | 1.13.1 | py39h1a10956_0 | conda - forge |
+| pandas | 2.2.3 | pypi_0 | pypi |
+| tftb | 0.2.0 | pypi_0 | pypi |
+| padasip | 1.2.2 | pypi_0 | pypi |
+| arlpy | 1.9.1 | pypi_0 | pypi |
