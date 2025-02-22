@@ -19,6 +19,9 @@
 *信号处理：*
 
 - 利用 Python 中的 librosa 进行信号处理：sig_process.ipynb
+
+### 环境具体配置:
+  
 python=3.9.21                                                                                             
 
 | Name | Version | Build | Channel |
